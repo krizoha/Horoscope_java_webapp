@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../static/css/style.css"
+          th:href="${'css/style.css'}"/>
+    <link rel="icon" href="../static/images/favicon.png"
+          th:href="${'images/favicon.png'}"/>
+    <title>Index</title>
+</head>
+<body>
+
+    <div class="page">
+
+        <form method="post">
+
+            <h1>Insert your zodiac sign:</h1>
+
+            zodiac sign:<input name="sign"/>
+
+            <input type="submit" value="Show horoscope"/>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
